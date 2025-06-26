@@ -30,8 +30,8 @@ const HeroSection = () => {
             <div className="flex items-center justify-center lg:justify-start gap-4 mb-6">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-cyan-400">
                 <img
-                  src="/lovable-uploads/bb44dd05-e467-4edc-9677-b9f44c063cd8.png"
-                  alt="Photography"
+                  src="/lovable-uploads/3d24494a-2aff-43ce-9a2f-770f4f7b8369.png"
+                  alt="Sai Vivek Alli"
                   className="w-full h-full object-cover"
                 />
               </div>
