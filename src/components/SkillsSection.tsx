@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Code, Cloud, Database, Layers, Wrench } from 'lucide-react';
 
 const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState('languages');
@@ -11,64 +12,64 @@ const SkillsSection = () => {
       title: 'Languages & Frameworks',
       icon: '💻',
       skills: [
-        { name: 'Python', level: 95 },
-        { name: 'Java', level: 90 },
-        { name: 'JavaScript', level: 85 },
-        { name: 'React.js', level: 88 },
-        { name: 'Spring Boot', level: 87 },
-        { name: 'FastAPI', level: 92 },
-        { name: 'Django', level: 90 },
-        { name: 'Flask', level: 88 }
+        { name: 'Python', level: 95, icon: '🐍' },
+        { name: 'Java', level: 90, icon: '☕' },
+        { name: 'JavaScript', level: 85, icon: '🟨' },
+        { name: 'React.js', level: 88, icon: '⚛️' },
+        { name: 'Spring Boot', level: 87, icon: '🍃' },
+        { name: 'FastAPI', level: 92, icon: '⚡' },
+        { name: 'Django', level: 90, icon: '🎸' },
+        { name: 'Flask', level: 88, icon: '🌶️' }
       ]
     },
     cloud: {
       title: 'Cloud & DevOps',
       icon: '☁️',
       skills: [
-        { name: 'AWS', level: 90 },
-        { name: 'Azure', level: 75 },
-        { name: 'GCP', level: 70 },
-        { name: 'Docker', level: 85 },
-        { name: 'Kubernetes', level: 80 },
-        { name: 'Terraform', level: 75 },
-        { name: 'Jenkins', level: 82 },
-        { name: 'CI/CD', level: 88 }
+        { name: 'AWS', level: 90, icon: '🧡' },
+        { name: 'Azure', level: 75, icon: '🔵' },
+        { name: 'GCP', level: 70, icon: '🟢' },
+        { name: 'Docker', level: 85, icon: '🐳' },
+        { name: 'Kubernetes', level: 80, icon: '⚙️' },
+        { name: 'Terraform', level: 75, icon: '🏗️' },
+        { name: 'Jenkins', level: 82, icon: '🔧' },
+        { name: 'CI/CD', level: 88, icon: '🔄' }
       ]
     },
     databases: {
       title: 'Databases',
       icon: '🗄️',
       skills: [
-        { name: 'MySQL', level: 88 },
-        { name: 'PostgreSQL', level: 85 },
-        { name: 'MongoDB', level: 80 },
-        { name: 'Redis', level: 75 },
-        { name: 'DynamoDB', level: 85 },
-        { name: 'SQLAlchemy', level: 90 }
+        { name: 'MySQL', level: 88, icon: '🐬' },
+        { name: 'PostgreSQL', level: 85, icon: '🐘' },
+        { name: 'MongoDB', level: 80, icon: '🍃' },
+        { name: 'Redis', level: 75, icon: '🟥' },
+        { name: 'DynamoDB', level: 85, icon: '📊' },
+        { name: 'SQLAlchemy', level: 90, icon: '🔗' }
       ]
     },
     architecture: {
       title: 'APIs & Architecture',
       icon: '🏗️',
       skills: [
-        { name: 'REST APIs', level: 95 },
-        { name: 'Microservices', level: 90 },
-        { name: 'Event-Driven Architecture', level: 85 },
-        { name: 'System Design', level: 88 },
-        { name: 'API Integration', level: 92 },
-        { name: 'Scalable Architecture', level: 87 }
+        { name: 'REST APIs', level: 95, icon: '🌐' },
+        { name: 'Microservices', level: 90, icon: '🔗' },
+        { name: 'Event-Driven Architecture', level: 85, icon: '📡' },
+        { name: 'System Design', level: 88, icon: '🏛️' },
+        { name: 'API Integration', level: 92, icon: '🔌' },
+        { name: 'Scalable Architecture', level: 87, icon: '📈' }
       ]
     },
     tools: {
       title: 'Tools & Technologies',
       icon: '🛠️',
       skills: [
-        { name: 'Git', level: 95 },
-        { name: 'Agile', level: 90 },
-        { name: 'Jira', level: 85 },
-        { name: 'Power BI', level: 80 },
-        { name: 'Tableau', level: 75 },
-        { name: 'Unit Testing', level: 88 }
+        { name: 'Git', level: 95, icon: '🌿' },
+        { name: 'Agile', level: 90, icon: '🏃' },
+        { name: 'Jira', level: 85, icon: '📋' },
+        { name: 'Power BI', level: 80, icon: '📊' },
+        { name: 'Tableau', level: 75, icon: '📈' },
+        { name: 'Unit Testing', level: 88, icon: '🧪' }
       ]
     }
   };
@@ -108,9 +109,12 @@ const SkillsSection = () => {
           {skillCategories[activeCategory].skills.map((skill, index) => (
             <Card key={index} className="p-6 bg-slate-800/50 backdrop-blur-sm border-slate-700/50 hover:bg-slate-800/70 transition-all duration-300 group">
               <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-semibold text-white group-hover:text-cyan-400 transition-colors duration-300">
-                  {skill.name}
-                </h3>
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">{skill.icon}</span>
+                  <h3 className="text-lg font-semibold text-white group-hover:text-cyan-400 transition-colors duration-300">
+                    {skill.name}
+                  </h3>
+                </div>
                 <Badge variant="outline" className="border-cyan-400/30 text-cyan-400">
                   {skill.level}%
                 </Badge>

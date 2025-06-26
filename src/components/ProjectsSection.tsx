@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -23,8 +22,8 @@ const ProjectsSection = () => {
         'Real-time analytics'
       ],
       achievements: '85%+ prediction accuracy',
-      github: 'https://github.com/SaiVivekAlli09',
-      demo: '#'
+      github: 'https://github.com/SaiVivekAlli09/Habit-Pattern-Predictor-Using-Python-ML',
+      demo: 'https://github.com/SaiVivekAlli09/Habit-Pattern-Predictor-Using-Python-ML'
     },
     {
       title: 'CineRAG-AI',
@@ -40,8 +39,8 @@ const ProjectsSection = () => {
         'Personalized suggestions'
       ],
       achievements: '85%+ recommendation accuracy',
-      github: 'https://github.com/SaiVivekAlli09',
-      demo: '#'
+      github: 'https://github.com/SaiVivekAlli09/CineRAG-AI',
+      demo: 'https://github.com/SaiVivekAlli09/CineRAG-AI'
     },
     {
       title: 'SimpleChatApp',
@@ -57,8 +56,8 @@ const ProjectsSection = () => {
         'User authentication'
       ],
       achievements: 'Real-time message synchronization',
-      github: 'https://github.com/SaiVivekAlli09',
-      demo: '#'
+      github: 'https://github.com/SaiVivekAlli09/SimpleChatApp_Java',
+      demo: 'https://github.com/SaiVivekAlli09/SimpleChatApp_Java'
     },
     {
       title: 'DocumentSearchEngine',
@@ -74,8 +73,8 @@ const ProjectsSection = () => {
         'Scalable architecture'
       ],
       achievements: 'Lightning-fast full-text search',
-      github: 'https://github.com/SaiVivekAlli09',
-      demo: '#'
+      github: 'https://github.com/SaiVivekAlli09/DocumentSearchEngine_Java',
+      demo: 'https://github.com/SaiVivekAlli09/DocumentSearchEngine_Java'
     },
     {
       title: 'Airbnb Price Prediction',
@@ -91,8 +90,8 @@ const ProjectsSection = () => {
         'Interactive visualizations'
       ],
       achievements: 'High-accuracy price predictions',
-      github: 'https://github.com/SaiVivekAlli09',
-      demo: '#'
+      github: 'https://github.com/SaiVivekAlli09/AirBnB-Price-Prediction',
+      demo: 'https://github.com/SaiVivekAlli09/AirBnB-Price-Prediction'
     }
   ];
 

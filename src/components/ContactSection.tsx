@@ -31,22 +31,47 @@ const ContactSection = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    try {
+      // Create mailto link with form data
+      const subject = encodeURIComponent(`Portfolio Contact: ${formData.subject || 'New Inquiry'}`);
+      const body = encodeURIComponent(`
+Name: ${formData.name}
+Email: ${formData.email}
+Project Type: ${formData.subject}
+Budget: ${formData.budget}
+Timeline: ${formData.timeline}
 
-    toast({
-      title: "Message Sent Successfully!",
-      description: "Thank you for reaching out. I'll get back to you within 24-48 hours.",
-    });
+Message:
+${formData.message}
+      `);
+      
+      const mailtoLink = `mailto:saivivekalli9@gmail.com?subject=${subject}&body=${body}`;
+      
+      // Open default email client
+      window.location.href = mailtoLink;
 
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      budget: '',
-      timeline: '',
-      message: ''
-    });
+      toast({
+        title: "Email Client Opened!",
+        description: "Your default email client should open with the message pre-filled.",
+      });
+
+      // Clear form
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        budget: '',
+        timeline: '',
+        message: ''
+      });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "There was an issue processing your request. Please try again.",
+        variant: "destructive"
+      });
+    }
+
     setIsSubmitting(false);
   };
 
@@ -273,12 +298,16 @@ const ContactSection = () => {
                   {isSubmitting ? (
                     <div className="flex items-center gap-2">
                       <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-                      Sending Message...
+                      Opening Email Client...
                     </div>
                   ) : (
                     'Send Message'
                   )}
                 </Button>
+                
+                <p className="text-xs text-gray-500 text-center mt-2">
+                  This will open your default email client with the message pre-filled
+                </p>
               </form>
             </Card>
           </div>

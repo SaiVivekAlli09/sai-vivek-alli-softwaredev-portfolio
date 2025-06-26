@@ -11,6 +11,7 @@ const ExperienceSection = () => {
       duration: 'January 2023 – Present',
       location: 'Baltimore, MD',
       type: 'Current Role',
+      companyImage: '💼', // Placeholder for company logo
       achievements: [
         'Developed and optimized RESTful APIs using FastAPI and Flask for Verizon\'s trade-in device processing system, handling millions of exchange requests per month, reducing processing time by 40%',
         'Implemented scalable microservices architecture using Python, AWS Lambda, and DynamoDB with boto3 SDK, ensuring 99.9% uptime and handling 30% more concurrent requests',
@@ -27,6 +28,7 @@ const ExperienceSection = () => {
       duration: 'February 2019 – July 2021',
       location: 'Hyderabad, India',
       type: 'Previous Role',
+      companyImage: '🛡️', // Placeholder for company logo
       achievements: [
         'Developed a full-stack web application for Telugu Titans (National Kabaddi Team), integrating live score updates, player statistics, and fan engagement features, resulting in a 60% increase in user engagement',
         'Engineered a scalable backend system for a leading pharmaceutical laboratory, optimizing drug sales tracking, contract management, and budget forecasting, leading to a 20% increase in financial reporting accuracy',
@@ -57,6 +59,11 @@ const ExperienceSection = () => {
               <div className="grid lg:grid-cols-4 gap-6">
                 {/* Company Info */}
                 <div className="lg:col-span-1 space-y-4">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-r from-slate-600 to-slate-700 rounded-lg flex items-center justify-center text-2xl">
+                      {exp.companyImage}
+                    </div>
+                  </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">{exp.company}</h3>
                     <div className="text-lg font-semibold text-cyan-400 mb-1">{exp.position}</div>

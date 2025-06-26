@@ -75,23 +75,40 @@ const AboutSection = () => {
             {/* Education */}
             <Card className="p-6 bg-slate-800/50 backdrop-blur-sm border-slate-700/50">
               <h3 className="text-xl font-semibold text-white mb-4">Education</h3>
-              <div className="space-y-2">
-                <div className="font-medium text-gray-300">M.S in Computer and Information Sciences</div>
-                <div className="text-cyan-400">Wichita State University</div>
-                <div className="text-sm text-gray-400">May 2023 • Wichita, KS</div>
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <div className="font-medium text-gray-300">Masters Degree in Computer and Information Sciences</div>
+                  <div className="text-cyan-400">Wichita State University</div>
+                  <div className="text-sm text-gray-400">Wichita, KS</div>
+                </div>
+                <div className="space-y-2">
+                  <div className="font-medium text-gray-300">Bachelors Degree in Electronics and Communications Engineering</div>
+                  <div className="text-cyan-400">Jawaharlal Nehru Technological University</div>
+                </div>
               </div>
             </Card>
 
             {/* Certifications */}
             <Card className="p-6 bg-slate-800/50 backdrop-blur-sm border-slate-700/50">
               <h3 className="text-xl font-semibold text-white mb-4">Certifications</h3>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">AWS</span>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-gradient-to-r from-orange-400 to-orange-600 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">AWS</span>
+                  </div>
+                  <div>
+                    <div className="font-medium text-gray-300">AWS Certified Solutions Architect</div>
+                    <div className="text-sm text-gray-400">Associate Level</div>
+                  </div>
                 </div>
-                <div>
-                  <div className="font-medium text-gray-300">AWS Certified Solutions Architect</div>
-                  <div className="text-sm text-gray-400">Associate Level</div>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-red-700 rounded-lg flex items-center justify-center">
+                    <span className="text-white font-bold text-xs">CEH</span>
+                  </div>
+                  <div>
+                    <div className="font-medium text-gray-300">CEH Certified Ethical Hacker</div>
+                    <div className="text-sm text-gray-400">EC Council</div>
+                  </div>
                 </div>
               </div>
             </Card>
