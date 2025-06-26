@@ -57,7 +57,7 @@ const AboutSection = () => {
             {/* Status Badge */}
             <div className="flex items-center gap-4">
               <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-green-400 font-medium">Available for remote opportunities</span>
+              <span className="text-green-400 font-medium">Available for On-Site, Hybrid and Remote Opportunities across US</span>
             </div>
 
             {/* Key Achievements */}
