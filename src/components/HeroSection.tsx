@@ -27,15 +27,24 @@ const HeroSection = () => {
         {/* Content */}
         <div className="text-center lg:text-left space-y-8">
           <div className="space-y-4">
-            <h1 className="text-5xl lg:text-7xl font-bold">
-              <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                SAI VIVEK
-              </span>
-              <br />
-              <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
-                ALLI
-              </span>
-            </h1>
+            <div className="flex items-center justify-center lg:justify-start gap-4 mb-6">
+              <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-cyan-400">
+                <img
+                  src="/lovable-uploads/bb44dd05-e467-4edc-9677-b9f44c063cd8.png"
+                  alt="Photography"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h1 className="text-4xl lg:text-6xl font-bold">
+                <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+                  SAI VIVEK
+                </span>
+                <br />
+                <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+                  ALLI
+                </span>
+              </h1>
+            </div>
             
             <div className="h-16 flex items-center justify-center lg:justify-start">
               <span className="text-2xl lg:text-3xl text-gray-300 font-light">
@@ -56,11 +65,11 @@ const HeroSection = () => {
               <div className="text-sm text-gray-400">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-emerald-400">50+</div>
+              <div className="text-3xl font-bold text-emerald-400">25+</div>
               <div className="text-sm text-gray-400">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-400">15+</div>
+              <div className="text-3xl font-bold text-purple-400">10+</div>
               <div className="text-sm text-gray-400">Technologies</div>
             </div>
             <div className="text-center">
