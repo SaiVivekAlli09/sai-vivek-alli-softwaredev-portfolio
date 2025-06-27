@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Code, Cloud, Database, Layers, Wrench } from 'lucide-react';
+import { Code, Cloud, Database, Layers, Wrench, Brain } from 'lucide-react';
 
 const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState('languages');
@@ -32,7 +32,7 @@ const SkillsSection = () => {
         { name: 'Docker', level: 85, icon: '🐳' },
         { name: 'Kubernetes', level: 80, icon: '⚙️' },
         { name: 'Terraform', level: 75, icon: '🏗️' },
-        { name: 'Jenkins', level: 82, icon: '🔧' },
+        { name: 'Jenkins', level: 82, icon: '👨‍💼' },
         { name: 'CI/CD', level: 88, icon: '🔄' }
       ]
     },
@@ -44,7 +44,7 @@ const SkillsSection = () => {
         { name: 'PostgreSQL', level: 85, icon: '🐘' },
         { name: 'MongoDB', level: 80, icon: '🍃' },
         { name: 'Redis', level: 75, icon: '🟥' },
-        { name: 'DynamoDB', level: 85, icon: '📊' },
+        { name: 'DynamoDB', level: 85, icon: '⚡' },
         { name: 'SQLAlchemy', level: 90, icon: '🔗' }
       ]
     },
@@ -58,6 +58,22 @@ const SkillsSection = () => {
         { name: 'System Design', level: 88, icon: '🏛️' },
         { name: 'API Integration', level: 92, icon: '🔌' },
         { name: 'Scalable Architecture', level: 87, icon: '📈' }
+      ]
+    },
+    aiml: {
+      title: 'AI/ML Tools',
+      icon: '🤖',
+      skills: [
+        { name: 'Python', level: 95, icon: '🐍' },
+        { name: 'TensorFlow', level: 85, icon: '🔥' },
+        { name: 'Scikit-learn', level: 88, icon: '🧠' },
+        { name: 'Pandas', level: 92, icon: '🐼' },
+        { name: 'NumPy', level: 90, icon: '🔢' },
+        { name: 'Jupyter Notebook', level: 88, icon: '📓' },
+        { name: 'OpenCV', level: 80, icon: '👁️' },
+        { name: 'Streamlit', level: 85, icon: '🌊' },
+        { name: 'Matplotlib', level: 87, icon: '📊' },
+        { name: 'Hugging Face', level: 82, icon: '🤗' }
       ]
     },
     tools: {

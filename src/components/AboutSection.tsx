@@ -19,7 +19,7 @@ const AboutSection = () => {
           {/* Profile Image */}
           <div className="flex justify-center">
             <div className="relative">
-              <div className="w-80 h-80 rounded-2xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 p-1">
+              <div className="w-96 h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 p-1">
                 <img
                   src="/lovable-uploads/c28cd30b-c72e-4cd6-ae1a-019fc45a76e3.png"
                   alt="Sai Vivek Alli Professional"
