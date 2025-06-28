@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -81,7 +80,12 @@ const SkillsSection = () => {
       icon: '🗄️',
       skills: [
         { name: 'MySQL', level: 88, icon: '🐬' },
-        { name: 'PostgreSQL', level: 85, icon: '🐘' },
+        { 
+          name: 'PostgreSQL', 
+          level: 85, 
+          icon: '/lovable-uploads/fb320646-dc6f-45fb-af02-35dff443b253.png',
+          isImage: true
+        },
         { 
           name: 'MongoDB', 
           level: 80, 
@@ -91,19 +95,19 @@ const SkillsSection = () => {
         { 
           name: 'Redis', 
           level: 75, 
-          icon: '/lovable-uploads/d4c28d1f-c12c-4fc7-a928-1972a36f56e9.png',
+          icon: '/lovable-uploads/a5a18927-0473-45be-84d6-151250a14d71.png',
           isImage: true
         },
         { 
           name: 'DynamoDB', 
           level: 85, 
-          icon: '/lovable-uploads/4231c7c3-cbbf-45fc-ba8d-e1a64ccb6655.png',
+          icon: '/lovable-uploads/12f5c17a-3e36-4dd9-a073-840d794d938e.png',
           isImage: true
         },
         { 
           name: 'SQLAlchemy', 
           level: 90, 
-          icon: '/lovable-uploads/bb44dd05-e467-4edc-9677-b9f44c063cd8.png',
+          icon: '/lovable-uploads/ee6415a7-c842-48f9-8752-31d18b46c5d9.png',
           isImage: true
         }
       ]
