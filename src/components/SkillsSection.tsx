@@ -14,11 +14,26 @@ const SkillsSection = () => {
       skills: [
         { name: 'Python', level: 95, icon: '🐍' },
         { name: 'Java', level: 90, icon: '☕' },
-        { name: 'JavaScript', level: 85, icon: '🟨' },
+        { 
+          name: 'JavaScript', 
+          level: 85, 
+          icon: '/lovable-uploads/18de624a-f7c8-4364-b28a-fa9a57da5a92.png',
+          isImage: true
+        },
         { name: 'React.js', level: 88, icon: '⚛️' },
-        { name: 'Spring Boot', level: 87, icon: '🍃' },
+        { 
+          name: 'Spring Boot', 
+          level: 87, 
+          icon: '/lovable-uploads/04024840-ffe7-4725-8ce7-048740c826d4.png',
+          isImage: true
+        },
         { name: 'FastAPI', level: 92, icon: '⚡' },
-        { name: 'Django', level: 90, icon: '🎸' },
+        { 
+          name: 'Django', 
+          level: 90, 
+          icon: '/lovable-uploads/1047059a-35ed-4be0-a88d-2d080858d888.png',
+          isImage: true
+        },
         { name: 'Flask', level: 88, icon: '🌶️' }
       ]
     },
@@ -26,13 +41,33 @@ const SkillsSection = () => {
       title: 'Cloud & DevOps',
       icon: '☁️',
       skills: [
-        { name: 'AWS', level: 90, icon: '🧡' },
-        { name: 'Azure', level: 75, icon: '🔵' },
-        { name: 'GCP', level: 70, icon: '🟢' },
+        { 
+          name: 'AWS', 
+          level: 90, 
+          icon: '/lovable-uploads/fd677684-be5a-4d59-9624-dec54e4d5f2a.png',
+          isImage: true
+        },
+        { 
+          name: 'Azure', 
+          level: 75, 
+          icon: '/lovable-uploads/0bb5caa8-d99c-4fa7-bcb8-9b20dcbdec08.png',
+          isImage: true
+        },
+        { 
+          name: 'GCP', 
+          level: 70, 
+          icon: '/lovable-uploads/f25aa3d6-95bf-44f3-b029-94e7982489db.png',
+          isImage: true
+        },
         { name: 'Docker', level: 85, icon: '🐳' },
         { name: 'Kubernetes', level: 80, icon: '⚙️' },
         { name: 'Terraform', level: 75, icon: '🏗️' },
-        { name: 'Jenkins', level: 82, icon: '👨‍💼' },
+        { 
+          name: 'Jenkins', 
+          level: 82, 
+          icon: '/lovable-uploads/42f7f59b-d604-4ec4-b2b1-dc6434d7f9d7.png',
+          isImage: true
+        },
         { name: 'CI/CD', level: 88, icon: '🔄' }
       ]
     },
@@ -126,7 +161,17 @@ const SkillsSection = () => {
             <Card key={index} className="p-6 bg-slate-800/50 backdrop-blur-sm border-slate-700/50 hover:bg-slate-800/70 transition-all duration-300 group">
               <div className="flex justify-between items-center mb-4">
                 <div className="flex items-center gap-3">
-                  <span className="text-2xl">{skill.icon}</span>
+                  {skill.isImage ? (
+                    <div className="w-8 h-8 flex items-center justify-center">
+                      <img 
+                        src={skill.icon} 
+                        alt={`${skill.name} logo`}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  ) : (
+                    <span className="text-2xl">{skill.icon}</span>
+                  )}
                   <h3 className="text-lg font-semibold text-white group-hover:text-cyan-400 transition-colors duration-300">
                     {skill.name}
                   </h3>
