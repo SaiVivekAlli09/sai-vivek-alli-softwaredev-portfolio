@@ -59,8 +59,18 @@ const SkillsSection = () => {
           isImage: true
         },
         { name: 'Docker', level: 85, icon: '🐳' },
-        { name: 'Kubernetes', level: 80, icon: '⚙️' },
-        { name: 'Terraform', level: 75, icon: '🏗️' },
+        { 
+          name: 'Kubernetes', 
+          level: 80, 
+          icon: '/lovable-uploads/5b65b6f3-a27f-4a04-a54f-3b94c20df1d5.png',
+          isImage: true
+        },
+        { 
+          name: 'Terraform', 
+          level: 75, 
+          icon: '/lovable-uploads/f691761c-c590-455a-b1a7-bcfbc2ab479c.png',
+          isImage: true
+        },
         { 
           name: 'Jenkins', 
           level: 82, 
@@ -129,7 +139,12 @@ const SkillsSection = () => {
           isImage: true
         },
         { name: 'Event-Driven Architecture', level: 85, icon: '📡' },
-        { name: 'System Design', level: 88, icon: '🏛️' },
+        { 
+          name: 'System Design', 
+          level: 88, 
+          icon: '/lovable-uploads/0282d47d-98a9-4c63-8202-c649818920f5.png',
+          isImage: true
+        },
         { 
           name: 'API Integration', 
           level: 92, 
@@ -150,7 +165,12 @@ const SkillsSection = () => {
           icon: '/lovable-uploads/46abd940-075f-4133-8006-f6aededc736d.png',
           isImage: true
         },
-        { name: 'Scikit-learn', level: 88, icon: '🧠' },
+        { 
+          name: 'Scikit-learn', 
+          level: 88, 
+          icon: '/lovable-uploads/b619caaf-9132-455c-aa72-dd3a00bbf642.png',
+          isImage: true
+        },
         { name: 'Pandas', level: 92, icon: '🐼' },
         { 
           name: 'NumPy', 
@@ -158,7 +178,12 @@ const SkillsSection = () => {
           icon: '/lovable-uploads/62df959c-51eb-46e3-95ca-43c7893cee10.png',
           isImage: true
         },
-        { name: 'Jupyter Notebook', level: 88, icon: '📓' },
+        { 
+          name: 'Jupyter Notebook', 
+          level: 88, 
+          icon: '/lovable-uploads/c6bca8fe-e448-4527-a4f6-a9fbc539a5ba.png',
+          isImage: true
+        },
         { 
           name: 'OpenCV', 
           level: 80, 
@@ -182,14 +207,14 @@ const SkillsSection = () => {
         { 
           name: 'Git', 
           level: 95, 
-          icon: '/lovable-uploads/63eb397c-7f21-491c-b3cd-6bbdf207b6fd.png',
+          icon: '/lovable-uploads/791f58dd-44be-4be3-9bb1-1ce911a9965a.png',
           isImage: true
         },
         { name: 'Agile', level: 90, icon: '🏃' },
         { 
           name: 'Jira', 
           level: 85, 
-          icon: '/lovable-uploads/d99eb42f-ebdc-455b-bb56-d0c058d37aa5.png',
+          icon: '/lovable-uploads/cd92919d-747c-4625-b1ae-82498434309f.png',
           isImage: true
         },
         { name: 'Power BI', level: 80, icon: '📊' },
