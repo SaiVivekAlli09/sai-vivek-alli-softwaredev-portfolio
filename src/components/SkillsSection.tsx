@@ -68,7 +68,12 @@ const SkillsSection = () => {
           icon: '/lovable-uploads/42f7f59b-d604-4ec4-b2b1-dc6434d7f9d7.png',
           isImage: true
         },
-        { name: 'CI/CD', level: 88, icon: '🔄' }
+        { 
+          name: 'CI/CD', 
+          level: 88, 
+          icon: '/lovable-uploads/3029bd57-5c53-4d4a-809b-e9dbe1660bf0.png',
+          isImage: true
+        }
       ]
     },
     databases: {
@@ -77,21 +82,56 @@ const SkillsSection = () => {
       skills: [
         { name: 'MySQL', level: 88, icon: '🐬' },
         { name: 'PostgreSQL', level: 85, icon: '🐘' },
-        { name: 'MongoDB', level: 80, icon: '🍃' },
-        { name: 'Redis', level: 75, icon: '🟥' },
-        { name: 'DynamoDB', level: 85, icon: '⚡' },
-        { name: 'SQLAlchemy', level: 90, icon: '🔗' }
+        { 
+          name: 'MongoDB', 
+          level: 80, 
+          icon: '/lovable-uploads/270916b5-00a9-494a-86f1-179650c9795c.png',
+          isImage: true
+        },
+        { 
+          name: 'Redis', 
+          level: 75, 
+          icon: '/lovable-uploads/d4c28d1f-c12c-4fc7-a928-1972a36f56e9.png',
+          isImage: true
+        },
+        { 
+          name: 'DynamoDB', 
+          level: 85, 
+          icon: '/lovable-uploads/4231c7c3-cbbf-45fc-ba8d-e1a64ccb6655.png',
+          isImage: true
+        },
+        { 
+          name: 'SQLAlchemy', 
+          level: 90, 
+          icon: '/lovable-uploads/bb44dd05-e467-4edc-9677-b9f44c063cd8.png',
+          isImage: true
+        }
       ]
     },
     architecture: {
       title: 'APIs & Architecture',
       icon: '🏗️',
       skills: [
-        { name: 'REST APIs', level: 95, icon: '🌐' },
-        { name: 'Microservices', level: 90, icon: '🔗' },
+        { 
+          name: 'REST APIs', 
+          level: 95, 
+          icon: '/lovable-uploads/d3cb72a2-f6ae-4c80-8c81-361518b43938.png',
+          isImage: true
+        },
+        { 
+          name: 'Microservices', 
+          level: 90, 
+          icon: '/lovable-uploads/c28cd30b-c72e-4cd6-ae1a-019fc45a76e3.png',
+          isImage: true
+        },
         { name: 'Event-Driven Architecture', level: 85, icon: '📡' },
         { name: 'System Design', level: 88, icon: '🏛️' },
-        { name: 'API Integration', level: 92, icon: '🔌' },
+        { 
+          name: 'API Integration', 
+          level: 92, 
+          icon: '/lovable-uploads/2961b88a-31c1-4def-a64d-51940afb83c1.png',
+          isImage: true
+        },
         { name: 'Scalable Architecture', level: 87, icon: '📈' }
       ]
     },
@@ -100,13 +140,33 @@ const SkillsSection = () => {
       icon: '🤖',
       skills: [
         { name: 'Python', level: 95, icon: '🐍' },
-        { name: 'TensorFlow', level: 85, icon: '🔥' },
+        { 
+          name: 'TensorFlow', 
+          level: 85, 
+          icon: '/lovable-uploads/46abd940-075f-4133-8006-f6aededc736d.png',
+          isImage: true
+        },
         { name: 'Scikit-learn', level: 88, icon: '🧠' },
         { name: 'Pandas', level: 92, icon: '🐼' },
-        { name: 'NumPy', level: 90, icon: '🔢' },
+        { 
+          name: 'NumPy', 
+          level: 90, 
+          icon: '/lovable-uploads/62df959c-51eb-46e3-95ca-43c7893cee10.png',
+          isImage: true
+        },
         { name: 'Jupyter Notebook', level: 88, icon: '📓' },
-        { name: 'OpenCV', level: 80, icon: '👁️' },
-        { name: 'Streamlit', level: 85, icon: '🌊' },
+        { 
+          name: 'OpenCV', 
+          level: 80, 
+          icon: '/lovable-uploads/5698be41-5233-4dca-bfe8-739f5d6603bb.png',
+          isImage: true
+        },
+        { 
+          name: 'Streamlit', 
+          level: 85, 
+          icon: '/lovable-uploads/deba2e81-841c-4ead-a8aa-e9963a79445c.png',
+          isImage: true
+        },
         { name: 'Matplotlib', level: 87, icon: '📊' },
         { name: 'Hugging Face', level: 82, icon: '🤗' }
       ]
@@ -115,9 +175,19 @@ const SkillsSection = () => {
       title: 'Tools & Technologies',
       icon: '🛠️',
       skills: [
-        { name: 'Git', level: 95, icon: '🌿' },
+        { 
+          name: 'Git', 
+          level: 95, 
+          icon: '/lovable-uploads/63eb397c-7f21-491c-b3cd-6bbdf207b6fd.png',
+          isImage: true
+        },
         { name: 'Agile', level: 90, icon: '🏃' },
-        { name: 'Jira', level: 85, icon: '📋' },
+        { 
+          name: 'Jira', 
+          level: 85, 
+          icon: '/lovable-uploads/d99eb42f-ebdc-455b-bb56-d0c058d37aa5.png',
+          isImage: true
+        },
         { name: 'Power BI', level: 80, icon: '📊' },
         { name: 'Tableau', level: 75, icon: '📈' },
         { name: 'Unit Testing', level: 88, icon: '🧪' }
