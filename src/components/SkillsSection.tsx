@@ -99,7 +99,7 @@ const SkillsSection = () => {
         { 
           name: 'MongoDB', 
           level: 80, 
-          icon: '/lovable-uploads/270916b5-00a9-494a-86f1-179650c9795c.png',
+          icon: '/lovable-uploads/d21bd51c-273c-4ede-9432-6716a631d57f.png',
           isImage: true
         },
         { 
@@ -135,7 +135,7 @@ const SkillsSection = () => {
         { 
           name: 'Microservices', 
           level: 90, 
-          icon: '/lovable-uploads/c28cd30b-c72e-4cd6-ae1a-019fc45a76e3.png',
+          icon: '/lovable-uploads/a4c1e773-34ff-4e7b-8f5b-d4bff9fa332a.png',
           isImage: true
         },
         { name: 'Event-Driven Architecture', level: 85, icon: '📡' },
