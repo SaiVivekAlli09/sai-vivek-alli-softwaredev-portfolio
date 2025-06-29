@@ -11,15 +11,30 @@ const SkillsSection = () => {
       title: 'Languages & Frameworks',
       icon: '💻',
       skills: [
-        { name: 'Python', level: 95, icon: '🐍' },
-        { name: 'Java', level: 90, icon: '☕' },
+        { 
+          name: 'Python', 
+          level: 95, 
+          icon: '/lovable-uploads/26c1b741-78dd-44cf-aa7e-ef1a90903edb.png',
+          isImage: true
+        },
+        { 
+          name: 'Java', 
+          level: 90, 
+          icon: '/lovable-uploads/61f58f11-8b32-4978-b74e-b3709cfff816.png',
+          isImage: true
+        },
         { 
           name: 'JavaScript', 
           level: 85, 
           icon: '/lovable-uploads/18de624a-f7c8-4364-b28a-fa9a57da5a92.png',
           isImage: true
         },
-        { name: 'React.js', level: 88, icon: '⚛️' },
+        { 
+          name: 'React.js', 
+          level: 88, 
+          icon: '/lovable-uploads/9ef8f217-a029-41bf-8d91-5f5b134de694.png',
+          isImage: true
+        },
         { 
           name: 'Spring Boot', 
           level: 87, 
@@ -158,7 +173,12 @@ const SkillsSection = () => {
       title: 'AI/ML Tools',
       icon: '🤖',
       skills: [
-        { name: 'Python', level: 95, icon: '🐍' },
+        { 
+          name: 'Python', 
+          level: 95, 
+          icon: '/lovable-uploads/26c1b741-78dd-44cf-aa7e-ef1a90903edb.png',
+          isImage: true
+        },
         { 
           name: 'TensorFlow', 
           level: 85, 
