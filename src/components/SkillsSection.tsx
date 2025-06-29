@@ -260,16 +260,36 @@ const SkillsSection = () => {
           icon: '/lovable-uploads/791f58dd-44be-4be3-9bb1-1ce911a9965a.png',
           isImage: true
         },
-        { name: 'Agile', level: 90, icon: '🏃' },
+        { 
+          name: 'Agile', 
+          level: 90, 
+          icon: '/lovable-uploads/eb25b5fc-83e4-408e-9bdd-5422080ddc5b.png',
+          isImage: true
+        },
         { 
           name: 'Jira', 
           level: 85, 
           icon: '/lovable-uploads/cd92919d-747c-4625-b1ae-82498434309f.png',
           isImage: true
         },
-        { name: 'Power BI', level: 80, icon: '📊' },
-        { name: 'Tableau', level: 75, icon: '📈' },
-        { name: 'Unit Testing', level: 88, icon: '🧪' }
+        { 
+          name: 'Power BI', 
+          level: 80, 
+          icon: '/lovable-uploads/f74ad127-c4ba-4adc-8ead-b25e31d41509.png',
+          isImage: true
+        },
+        { 
+          name: 'Tableau', 
+          level: 75, 
+          icon: '/lovable-uploads/c0a9b009-7c74-4fa6-85b3-ae114eab7795.png',
+          isImage: true
+        },
+        { 
+          name: 'Unit Testing', 
+          level: 88, 
+          icon: '/lovable-uploads/c90ff851-3734-4fd2-b2b7-abe72a90de9a.png',
+          isImage: true
+        }
       ]
     }
   };
