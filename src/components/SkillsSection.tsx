@@ -218,11 +218,36 @@ const SkillsSection = () => {
         },
         { name: 'Matplotlib', level: 87, icon: '📊' },
         { name: 'Hugging Face', level: 82, icon: '🤗' },
-        { name: 'Claude', level: 90, icon: '🧠' },
-        { name: 'ChatGPT', level: 92, icon: '💬' },
-        { name: 'Perplexity', level: 85, icon: '🔍' },
-        { name: 'Cursor', level: 88, icon: '⚡' },
-        { name: 'Vector', level: 80, icon: '📐' }
+        { 
+          name: 'Claude', 
+          level: 90, 
+          icon: '/lovable-uploads/dc90abec-edeb-42f0-9659-f34e970cb37a.png',
+          isImage: true
+        },
+        { 
+          name: 'ChatGPT', 
+          level: 92, 
+          icon: '/lovable-uploads/5b3eb607-d591-450f-a8ea-e05602272bf0.png',
+          isImage: true
+        },
+        { 
+          name: 'Perplexity', 
+          level: 85, 
+          icon: '/lovable-uploads/1846fea2-8da1-40e3-88bb-208099d0db90.png',
+          isImage: true
+        },
+        { 
+          name: 'Cursor', 
+          level: 88, 
+          icon: '/lovable-uploads/13c1ddfb-42c0-4007-a6ee-72c5ff69f8eb.png',
+          isImage: true
+        },
+        { 
+          name: 'Vector', 
+          level: 80, 
+          icon: '/lovable-uploads/a4c45a9e-8741-41ae-9253-8c005e2c9d96.png',
+          isImage: true
+        }
       ]
     },
     tools: {
