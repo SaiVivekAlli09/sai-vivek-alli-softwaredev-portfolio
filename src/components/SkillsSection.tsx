@@ -170,7 +170,7 @@ const SkillsSection = () => {
       ]
     },
     aiml: {
-      title: 'AI/ML Tools',
+      title: 'AI/ML Tools & Technologies',
       icon: '🤖',
       skills: [
         { 
@@ -217,7 +217,12 @@ const SkillsSection = () => {
           isImage: true
         },
         { name: 'Matplotlib', level: 87, icon: '📊' },
-        { name: 'Hugging Face', level: 82, icon: '🤗' }
+        { name: 'Hugging Face', level: 82, icon: '🤗' },
+        { name: 'Claude', level: 90, icon: '🧠' },
+        { name: 'ChatGPT', level: 92, icon: '💬' },
+        { name: 'Perplexity', level: 85, icon: '🔍' },
+        { name: 'Cursor', level: 88, icon: '⚡' },
+        { name: 'Vector', level: 80, icon: '📐' }
       ]
     },
     tools: {
