@@ -221,7 +221,7 @@ const SkillsSection = () => {
         { 
           name: 'Claude', 
           level: 90, 
-          icon: '/lovable-uploads/dc90abec-edeb-42f0-9659-f34e970cb37a.png',
+          icon: '/lovable-uploads/c873b189-a427-4549-9e68-74c74dd081c0.png',
           isImage: true
         },
         { 
@@ -239,7 +239,7 @@ const SkillsSection = () => {
         { 
           name: 'Cursor', 
           level: 88, 
-          icon: '/lovable-uploads/13c1ddfb-42c0-4007-a6ee-72c5ff69f8eb.png',
+          icon: '/lovable-uploads/5b5dd97d-26a6-4364-9da1-a791b106be39.png',
           isImage: true
         },
         { 
