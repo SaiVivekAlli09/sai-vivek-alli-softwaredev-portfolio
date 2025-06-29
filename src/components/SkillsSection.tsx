@@ -153,11 +153,16 @@ const SkillsSection = () => {
           icon: '/lovable-uploads/a4c1e773-34ff-4e7b-8f5b-d4bff9fa332a.png',
           isImage: true
         },
-        { name: 'Event-Driven Architecture', level: 85, icon: '📡' },
+        { 
+          name: 'Event-Driven Architecture', 
+          level: 85, 
+          icon: '/lovable-uploads/ef6040f0-f454-4a5a-ad56-005b918386d8.png',
+          isImage: true
+        },
         { 
           name: 'System Design', 
           level: 88, 
-          icon: '/lovable-uploads/0282d47d-98a9-4c63-8202-c649818920f5.png',
+          icon: '/lovable-uploads/2f5b85bd-cd18-4730-aeb5-e89712e48d2a.png',
           isImage: true
         },
         { 
@@ -166,7 +171,12 @@ const SkillsSection = () => {
           icon: '/lovable-uploads/2961b88a-31c1-4def-a64d-51940afb83c1.png',
           isImage: true
         },
-        { name: 'Scalable Architecture', level: 87, icon: '📈' }
+        { 
+          name: 'Scalable Architecture', 
+          level: 87, 
+          icon: '/lovable-uploads/be1e2929-3e4a-4230-bfb6-f06bb516fb13.png',
+          isImage: true
+        }
       ]
     },
     aiml: {
