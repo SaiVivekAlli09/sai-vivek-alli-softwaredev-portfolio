@@ -24,7 +24,7 @@ const TestimonialsSection = () => {
       type: "Photography Portfolio"
     },
     {
-      company: "Sri Venkateswara Enterprises",
+      company: "Shri Balaji Enterprises",
       rating: 5,
       review: "We are specialists in custom built engineering components and Reverse Engineering. We asked for a website for our business, he created within 4 days and well format aligned and amazing job!",
       type: "Engineering Business"
