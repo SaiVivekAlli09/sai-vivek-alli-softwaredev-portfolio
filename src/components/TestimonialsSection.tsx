@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Star } from 'lucide-react';
@@ -12,15 +11,15 @@ const TestimonialsSection = () => {
       type: "Hotel Management"
     },
     {
-      company: "China King",
+      company: "Jing mai Thai restaurant",
       rating: 5,
-      review: "Super quick and it was very helpful to our Chinese Restaurant! He clearly understood what we are looking for, we did not have any problems.",
+      review: "Super quick and website was very helpful to our Thai Restaurant! He clearly understood what we are looking for, we did not have any problems.",
       type: "Restaurant Website"
     },
     {
-      company: "BNphotography",
+      company: "VV Captures - Photography portfolio",
       rating: 5,
-      review: "He created me a portfolio website with all my best work of pictures with proper alignment and colours. Added few details which were impressive which I did not mention too, it was awesome!",
+      review: "A portfolio website with all my best work of pictures with proper alignment and colours. Added few details which were impressive which I did not expect, it was awesome!",
       type: "Photography Portfolio"
     },
     {

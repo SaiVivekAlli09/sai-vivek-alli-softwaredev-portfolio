@@ -41,14 +41,24 @@ const SkillsSection = () => {
           icon: '/lovable-uploads/04024840-ffe7-4725-8ce7-048740c826d4.png',
           isImage: true
         },
-        { name: 'FastAPI', level: 92, icon: '⚡' },
+        { 
+          name: 'FastAPI', 
+          level: 92, 
+          icon: '/lovable-uploads/aa16206a-f032-4187-ac9e-d5c2c39164bb.png',
+          isImage: true
+        },
         { 
           name: 'Django', 
           level: 90, 
           icon: '/lovable-uploads/1047059a-35ed-4be0-a88d-2d080858d888.png',
           isImage: true
         },
-        { name: 'Flask', level: 88, icon: '🌶️' }
+        { 
+          name: 'Flask', 
+          level: 88, 
+          icon: '/lovable-uploads/30ff7046-e28c-4be4-aa1e-f6d70f8b3904.png',
+          isImage: true
+        }
       ]
     },
     cloud: {
