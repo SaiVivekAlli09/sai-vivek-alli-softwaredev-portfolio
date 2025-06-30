@@ -21,7 +21,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="w-96 h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 p-1">
                 <img
-                  src="/lovable-uploads/1c9c10d5-35d2-45c6-88ba-b3d3894ad64b.png"
+                  src="/lovable-uploads/30396476-f6cb-4515-bb16-bfe8f2c315ce.png"
                   alt="Sai Vivek Alli Professional"
                   className="w-full h-full object-cover rounded-2xl"
                 />
