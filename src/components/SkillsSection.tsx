@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -271,16 +270,66 @@ const SkillsSection = () => {
       title: 'Penetration Testing & Ethical Hacking',
       icon: '🔒',
       skills: [
-        { name: 'Kali Linux', level: 88, icon: '🐉' },
-        { name: 'Burp Suite', level: 90, icon: '🔍' },
-        { name: 'Nmap', level: 85, icon: '🌐' },
-        { name: 'SQLmap', level: 87, icon: '💉' },
-        { name: 'Metasploit', level: 83, icon: '💥' },
-        { name: 'John the Ripper', level: 80, icon: '🔓' },
-        { name: 'Invicti', level: 75, icon: '🕷️' },
-        { name: 'Wireshark', level: 82, icon: '🦈' },
-        { name: 'Hashcat', level: 78, icon: '🐱' },
-        { name: 'OWASP Top 10', level: 92, icon: '🛡️' }
+        { 
+          name: 'Kali Linux', 
+          level: 88, 
+          icon: '/lovable-uploads/8d0d67d0-e405-4652-b0f9-36d6ba6e7ca7.png',
+          isImage: true
+        },
+        { 
+          name: 'Burp Suite', 
+          level: 90, 
+          icon: '/lovable-uploads/1c719fb7-4c58-4306-b5f2-66e64eeb55f5.png',
+          isImage: true
+        },
+        { 
+          name: 'Nmap', 
+          level: 85, 
+          icon: '/lovable-uploads/cb16d669-0dff-43a8-a37f-27b2c9856e70.png',
+          isImage: true
+        },
+        { 
+          name: 'SQLmap', 
+          level: 87, 
+          icon: '/lovable-uploads/311f9da2-df48-450e-afe0-c689fc111705.png',
+          isImage: true
+        },
+        { 
+          name: 'Metasploit', 
+          level: 83, 
+          icon: '/lovable-uploads/68ae5849-dcef-4f55-8811-17dc874f8e18.png',
+          isImage: true
+        },
+        { 
+          name: 'John the Ripper', 
+          level: 80, 
+          icon: '/lovable-uploads/3af78d95-7c41-4863-991f-589c2d19cbb1.png',
+          isImage: true
+        },
+        { 
+          name: 'Invicti', 
+          level: 75, 
+          icon: '/lovable-uploads/a17992c1-b1fc-417d-98bb-be22fbf956ce.png',
+          isImage: true
+        },
+        { 
+          name: 'Wireshark', 
+          level: 82, 
+          icon: '/lovable-uploads/bbcec3e9-2aa4-4825-bd47-73e22322d585.png',
+          isImage: true
+        },
+        { 
+          name: 'Hashcat', 
+          level: 78, 
+          icon: '/lovable-uploads/f021674f-5ce3-4dc1-aad2-5c9d12aa3fd8.png',
+          isImage: true
+        },
+        { 
+          name: 'OWASP Top 10', 
+          level: 92, 
+          icon: '/lovable-uploads/e4b8ed03-b867-4688-b85e-4396437108c0.png',
+          isImage: true
+        }
       ]
     },
     tools: {
