@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -257,7 +258,29 @@ const SkillsSection = () => {
           level: 80, 
           icon: '/lovable-uploads/a4c45a9e-8741-41ae-9253-8c005e2c9d96.png',
           isImage: true
+        },
+        { 
+          name: 'Vercel AI', 
+          level: 85, 
+          icon: '/lovable-uploads/62666960-da3b-4e87-a4ba-0c5eefbfb7b2.png',
+          isImage: true
         }
+      ]
+    },
+    pentesting: {
+      title: 'Penetration Testing & Ethical Hacking',
+      icon: '🔒',
+      skills: [
+        { name: 'Kali Linux', level: 88, icon: '🐉' },
+        { name: 'Burp Suite', level: 90, icon: '🔍' },
+        { name: 'Nmap', level: 85, icon: '🌐' },
+        { name: 'SQLmap', level: 87, icon: '💉' },
+        { name: 'Metasploit', level: 83, icon: '💥' },
+        { name: 'John the Ripper', level: 80, icon: '🔓' },
+        { name: 'Invicti', level: 75, icon: '🕷️' },
+        { name: 'Wireshark', level: 82, icon: '🦈' },
+        { name: 'Hashcat', level: 78, icon: '🐱' },
+        { name: 'OWASP Top 10', level: 92, icon: '🛡️' }
       ]
     },
     tools: {

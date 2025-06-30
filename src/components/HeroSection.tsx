@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   const [currentRole, setCurrentRole] = useState(0);
-  const roles = ['Full-Stack Developer', 'Software Engineer', 'Problem Solver', 'Code Architect'];
+  const roles = ['Software Developer', 'AI Engineer', 'Web App Penetration Tester', 'Full-Stack Developer', 'Problem Solver', 'Code Architect'];
 
   useEffect(() => {
     const interval = setInterval(() => {
