@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { ArrowDown, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -128,7 +127,6 @@ const HeroSection = () => {
                 />
               </div>
             </div>
-            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400/20 to-emerald-400/20 animate-pulse"></div>
           </div>
         </div>
       </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card } from '@/components/ui/card';
 
@@ -21,12 +20,11 @@ const AboutSection = () => {
             <div className="relative">
               <div className="w-96 h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 p-1">
                 <img
-                  src="/lovable-uploads/6e8af238-1695-4f95-92a4-64cd3fbeef25.png"
+                  src="/lovable-uploads/d42c06bb-f399-483f-9e85-a535a1018155.png"
                   alt="Sai Vivek Alli Professional"
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-400/10 to-emerald-400/10"></div>
             </div>
           </div>
 
