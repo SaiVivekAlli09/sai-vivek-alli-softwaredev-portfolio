@@ -13,14 +13,15 @@ const ExperienceSection = () => {
       type: 'Current Role',
       companyImage: '/lovable-uploads/19304695-fd33-4492-ae52-0511d384a52a.png', // Verizon logo
       achievements: [
-        'Developed and optimized RESTful APIs using FastAPI and Flask for Verizon\'s trade-in device processing system, handling millions of exchange requests per month, reducing processing time by 40%',
-        'Implemented scalable microservices architecture using Python, AWS Lambda, and DynamoDB with boto3 SDK, ensuring 99.9% uptime and handling 30% more concurrent requests',
-        'Led the redesign of the purchase request API pipeline using Django REST Framework and Celery, improving data ingestion efficiency and reducing API latency from 800ms to 200ms',
-        'Designed data quality validation pipeline using Pandas, NumPy, and Pydantic, improving error detection by 35%',
-        'Built automated testing suites using pytest and unittest, reducing production issues by 20%'
+        'Architected Java Spring Boot microservices with REST APIs to handle device trade-in valuation requests, resulting in 40% reduction in processing time and seamless integration with existing billing systems',
+        'Orchestrated React frontend components with Kubernetes deployment strategies to streamline trade-in workflow automation, achieving 25% increase in user completion rates through intuitive interface design',
+        'Optimized AWS RDS database queries and Docker containerization to support real-time device exchange calculations, delivering 60% faster response times for high-volume trade-in transactions',
+        'Streamlined CI/CD pipeline automation using Terraform infrastructure as code to accelerate purchase request updates, cutting deployment cycles from 4 hours to 30 minutes while maintaining zero-downtime releases',
+        'Integrated microservices communication patterns with AWS Lambda functions to synchronize trade-in value algorithms across 8 customer touchpoints, reducing pricing discrepancies by 95% and ensuring consistent data delivery to 2.3M web and mobile users',
+        'Collaborated with product managers and QA teams during sprint planning to resolve database connection pooling issues in Spring Boot applications, preventing production bottlenecks and maintaining 99.8% system availability during peak trade-in seasons'
       ],
-      technologies: ['Python', 'FastAPI', 'Flask', 'Django', 'AWS Lambda', 'DynamoDB', 'Celery', 'pytest'],
-      impact: 'Streamlined the trade-in device exchange workflow, reducing refund processing time by 2 days and increasing customer satisfaction scores by 18%'
+      technologies: ['Java Spring Boot', 'React', 'AWS RDS', 'Docker', 'Kubernetes', 'Terraform', 'AWS Lambda', 'Microservices'],
+      impact: 'Led complete modernization of legacy trade-in platform serving 2.3M monthly users, contributing to $12M annual revenue increase through improved conversion rates and reduced operational overhead'
     },
     {
       company: 'Entersoft Security',
@@ -30,14 +31,15 @@ const ExperienceSection = () => {
       type: 'Previous Role',
       companyImage: '/lovable-uploads/3ad9e153-f082-4ed1-872b-4f4b4392c105.png', // Entersoft logo
       achievements: [
-        'Developed a full-stack web application for Telugu Titans (National Kabaddi Team), integrating live score updates, player statistics, and fan engagement features, resulting in a 60% increase in user engagement',
-        'Engineered a scalable backend system for a leading pharmaceutical laboratory, optimizing drug sales tracking, contract management, and budget forecasting, leading to a 20% increase in financial reporting accuracy',
-        'Built and optimized REST APIs to handle high-traffic requests, reducing response time from 1.2s to 350ms',
-        'Designed and implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 45%',
-        'Refactored legacy monolithic architecture into distributed microservices system using Java, cutting maintenance costs by 35%'
+        'Developed Python Django backend with React Redux frontend to deliver Telugu Titans Kabaddi team\'s official website, resulting in 150% increase in fan engagement and seamless integration of player statistics modules',
+        'Engineered pharmaceutical sales tracking system using Node.js APIs and SQL Server optimization to automate drug inventory management, achieving 35% decrease in manual processing errors and real-time budget monitoring',
+        'Consolidated microservices architecture with AWS cloud services to unify sports management and healthcare modules, enabling cross-platform data synchronization and cutting infrastructure costs by 45%',
+        'Automated CI/CD pipeline processes using Docker containers and Kubernetes orchestration to accelerate feature deployments, shortening release cycles from 2 weeks to 3 days while maintaining 99.5% uptime',
+        'Configured Terraform infrastructure provisioning with JavaScript-based monitoring dashboards to track contract management workflows across 15 modules, providing real-time visibility that boosted HR processing efficiency by 40% and cut compliance audit time from 6 hours to 90 minutes',
+        'Debugged critical memory leaks in React Redux state management affecting pharmaceutical inventory displays, implementing component lifecycle optimizations that accelerated page load times by 50% and eliminated user session timeouts'
       ],
-      technologies: ['Java', 'Spring Boot', 'REST APIs', 'Jenkins', 'Docker', 'Microservices', 'Kafka'],
-      impact: 'Enabled the pharmaceutical firm to streamline compliance workflows and improve contract processing speed by 50%, while the sports project enhanced fan engagement by 3x'
+      technologies: ['Python Django', 'React Redux', 'Node.js', 'SQL Server', 'AWS', 'Docker', 'Kubernetes', 'Terraform', 'JavaScript'],
+      impact: 'Successfully delivered dual-domain platform serving 50K+ sports fans and 200+ pharmaceutical clients, generating $2.8M combined revenue while establishing scalable foundation for future product expansion'
     }
   ];
 

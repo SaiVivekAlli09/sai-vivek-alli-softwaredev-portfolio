@@ -32,22 +32,22 @@ const AboutSection = () => {
           <div className="space-y-6">
             <Card className="p-6 bg-slate-800/50 backdrop-blur-sm border-slate-700/50">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                Results-driven Software Engineer with <span className="text-cyan-400 font-semibold">5+ years of experience</span> in 
-                full-stack development, API integrations, system design, and high-volume application development. 
-                Currently working at <span className="text-emerald-400 font-semibold">Verizon through MindPROS</span>, 
-                where I've optimized trade-in device processing systems handling millions of requests monthly.
+                Results-driven Software Engineer with <span className="text-cyan-400 font-semibold">6+ years of progressive experience</span> in 
+                full-stack development, microservices architecture, cloud-native applications, and enterprise-scale system design. 
+                Currently working at <span className="text-emerald-400 font-semibold">Verizon through MindPROS</span> as a Full Stack Software Developer, 
+                where I've architected and modernized trade-in device processing systems serving <span className="text-cyan-400 font-semibold">2.3M monthly users</span> and 
+                contributing to <span className="text-emerald-400 font-semibold">$12M annual revenue growth</span>.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I specialize in building scalable, reliable, and secure applications leveraging Python, Java, 
-                RESTful APIs, microservices architecture, and cloud computing platforms. My expertise spans 
-                the entire software development lifecycle, from design patterns to performance optimization.
+                I specialize in building scalable, secure, and high-performance applications using <span className="text-cyan-400 font-semibold">Java Spring Boot, Python Django, React, and AWS cloud services</span>. 
+                My expertise encompasses the complete software development lifecycle, from microservices design and REST API implementation to DevOps automation and cross-functional team collaboration. 
+                I excel in transforming complex business challenges into elegant technical solutions while maintaining enterprise-grade code quality standards.
               </p>
 
               <div className="border-l-4 border-cyan-400 pl-6">
-                <p className="text-gray-300 italic">
-                  "Passionate about transforming complex problems into elegant solutions through clean code, 
-                  innovative architecture, and collaborative teamwork."
+                <p className="text-gray-300 italic mb-4">
+                  <span className="text-emerald-400 font-semibold">Core Expertise:</span> Microservices Architecture • Cloud-Native Development • API Design & Integration • Performance Optimization • CI/CD Automation • Cross-Platform System Integration
                 </p>
               </div>
             </Card>
@@ -61,12 +61,12 @@ const AboutSection = () => {
             {/* Key Achievements */}
             <div className="grid grid-cols-2 gap-4">
               <Card className="p-4 bg-slate-800/30 backdrop-blur-sm border-slate-700/50 text-center">
-                <div className="text-2xl font-bold text-cyan-400 mb-2">40%</div>
-                <div className="text-sm text-gray-400">Performance Improvement</div>
+                <div className="text-2xl font-bold text-cyan-400 mb-2">2.3M</div>
+                <div className="text-sm text-gray-400">Monthly Users</div>
               </Card>
               <Card className="p-4 bg-slate-800/30 backdrop-blur-sm border-slate-700/50 text-center">
-                <div className="text-2xl font-bold text-emerald-400 mb-2">99.9%</div>
-                <div className="text-sm text-gray-400">System Uptime</div>
+                <div className="text-2xl font-bold text-emerald-400 mb-2">$12M</div>
+                <div className="text-sm text-gray-400">Annual Revenue Growth</div>
               </Card>
             </div>
 
