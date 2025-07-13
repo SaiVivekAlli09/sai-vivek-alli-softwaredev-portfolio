@@ -1,0 +1,148 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2500
+>>
+stream
+BT
+/F1 18 Tf
+306 750 Td
+(SAI VIVEK ALLI) Tj
+0 -30 Td
+/F1 14 Tf
+(Full Stack Software Developer) Tj
+0 -20 Td
+/F1 10 Tf
+(saivivekalli9@gmail.com | 4803340225 | LinkedIn | Portfolio) Tj
+
+0 -50 Td
+/F1 12 Tf
+(PROFESSIONAL SUMMARY) Tj
+0 -20 Td
+/F1 9 Tf
+(Accomplished Software Developer with 6 years of progressive experience) Tj
+0 -12 Td
+(architecting scalable full-stack applications using Java Spring Boot, Python Django,) Tj
+0 -12 Td
+(and React across telecommunications and healthcare domains.) Tj
+
+0 -30 Td
+/F1 12 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F1 9 Tf
+(Languages & Frameworks: Python, Java, JavaScript, Flask, Django, FastAPI, Pandas,) Tj
+0 -12 Td
+(NumPy, Spring Boot, React.js, Node.js) Tj
+0 -12 Td
+(Cloud & DevOps: AWS (Lambda, S3, DynamoDB, EC2), Azure, GCP, Docker, Kubernetes) Tj
+0 -12 Td
+(Databases: MySQL, PostgreSQL, MongoDB, Redis, Cassandra, SQL Server, Oracle) Tj
+
+0 -30 Td
+/F1 12 Tf
+(WORK EXPERIENCE) Tj
+0 -20 Td
+/F1 10 Tf
+(MindPROS, Inc - Verizon | Baltimore, MD) Tj
+0 -12 Td
+/F1 9 Tf
+(Full Stack Software Developer | January 2023 – Present) Tj
+0 -15 Td
+(• Architected Java Spring Boot microservices with REST APIs) Tj
+0 -12 Td
+(• Orchestrated React frontend components with Kubernetes deployment) Tj
+0 -12 Td
+(• Optimized AWS RDS database queries and Docker containerization) Tj
+0 -12 Td
+(• Impact: Led complete modernization serving 2.3M monthly users) Tj
+
+0 -30 Td
+/F1 10 Tf
+(Entersoft Security | Hyderabad, India) Tj
+0 -12 Td
+/F1 9 Tf
+(Software Engineer | February 2019 – July 2021) Tj
+0 -15 Td
+(• Developed Python Django backend with React Redux frontend) Tj
+0 -12 Td
+(• Engineered pharmaceutical sales tracking system using Node.js APIs) Tj
+0 -12 Td
+(• Consolidated microservices architecture with AWS cloud services) Tj
+
+0 -30 Td
+/F1 12 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F1 10 Tf
+(Wichita State University | Wichita, KS) Tj
+0 -12 Td
+/F1 9 Tf
+(M.S in Computer and Information Sciences | May 2023) Tj
+
+0 -30 Td
+/F1 12 Tf
+(CERTIFICATIONS) Tj
+0 -20 Td
+/F1 9 Tf
+(• AWS Certified Solutions Architect – Associate) Tj
+0 -12 Td
+(• CEH – Certified Ethical Hacker – EC Council) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000079 00000 n 
+0000000173 00000 n 
+0000000301 00000 n 
+0000002853 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+2951
+%%EOF
