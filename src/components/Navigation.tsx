@@ -18,7 +18,6 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
     { id: 'testimonials', label: 'Testimonials' },
     { id: 'photography', label: 'Photography' },
     { id: 'contact', label: 'Contact' },
-    { id: 'resume', label: 'Resume' },
   ];
 
   const scrollToSection = (sectionId: string) => {
