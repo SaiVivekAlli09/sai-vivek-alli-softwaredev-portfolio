@@ -18,7 +18,9 @@ const ExperienceSection = () => {
         'Optimized AWS RDS database queries and Docker containerization to support real-time device exchange calculations, delivering 60% faster response times for high-volume trade-in transactions',
         'Streamlined CI/CD pipeline automation using Terraform infrastructure as code to accelerate purchase request updates, cutting deployment cycles from 4 hours to 30 minutes while maintaining zero-downtime releases',
         'Integrated microservices communication patterns with AWS Lambda functions to synchronize trade-in value algorithms across 8 customer touchpoints, reducing pricing discrepancies by 95% and ensuring consistent data delivery to 2.3M web and mobile users',
-        'Collaborated with product managers and QA teams during sprint planning to resolve database connection pooling issues in Spring Boot applications, preventing production bottlenecks and maintaining 99.8% system availability during peak trade-in seasons'
+        'Collaborated with product managers and QA teams during sprint planning to resolve database connection pooling issues in Spring Boot applications, preventing production bottlenecks and maintaining 99.8% system availability during peak trade-in seasons',
+        'Conducted thorough code reviews for 47 pull requests monthly across trade-in microservices, catching memory leaks in Spring Boot connection pooling and preventing 3 potential production outages through detailed Java code analysis',
+        'Tracked application performance using monitoring dashboards in New Relic, identifying slow database queries in device valuation service that were taking 2.3 seconds and reducing them to 340ms through index optimization'
       ],
       technologies: ['Java Spring Boot', 'React', 'AWS RDS', 'Docker', 'Kubernetes', 'Terraform', 'AWS Lambda', 'Microservices'],
       impact: 'Led complete modernization of legacy trade-in platform serving 2.3M monthly users, contributing to $12M annual revenue increase through improved conversion rates and reduced operational overhead'
@@ -36,7 +38,8 @@ const ExperienceSection = () => {
         'Consolidated microservices architecture with AWS cloud services to unify sports management and healthcare modules, enabling cross-platform data synchronization and cutting infrastructure costs by 45%',
         'Automated CI/CD pipeline processes using Docker containers and Kubernetes orchestration to accelerate feature deployments, shortening release cycles from 2 weeks to 3 days while maintaining 99.5% uptime',
         'Configured Terraform infrastructure provisioning with JavaScript-based monitoring dashboards to track contract management workflows across 15 modules, providing real-time visibility that boosted HR processing efficiency by 40% and cut compliance audit time from 6 hours to 90 minutes',
-        'Debugged critical memory leaks in React Redux state management affecting pharmaceutical inventory displays, implementing component lifecycle optimizations that accelerated page load times by 50% and eliminated user session timeouts'
+        'Debugged critical memory leaks in React Redux state management affecting pharmaceutical inventory displays, implementing component lifecycle optimizations that accelerated page load times by 50% and eliminated user session timeouts',
+        'Developed Python automation scripts leveraging requests library to sync Telugu Titans player statistics from external sports APIs, automatically updating Django models with match performance data and generating weekly reports that eliminated 8 hours of manual data entry for team management staff'
       ],
       technologies: ['Python Django', 'React Redux', 'Node.js', 'SQL Server', 'AWS', 'Docker', 'Kubernetes', 'Terraform', 'JavaScript'],
       impact: 'Successfully delivered dual-domain platform serving 50K+ sports fans and 200+ pharmaceutical clients, generating $2.8M combined revenue while establishing scalable foundation for future product expansion'
