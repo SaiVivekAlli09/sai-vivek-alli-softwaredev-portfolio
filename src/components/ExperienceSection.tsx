@@ -33,8 +33,9 @@ const ExperienceSection = () => {
       type: 'Previous Role',
       companyImage: '/lovable-uploads/3ad9e153-f082-4ed1-872b-4f4b4392c105.png', // Entersoft logo
       achievements: [
-        'Developed Python Django backend with React Redux frontend to deliver Telugu Titans Kabaddi team\'s official website, resulting in 150% increase in fan engagement and seamless integration of player statistics modules',
-        'Engineered pharmaceutical sales tracking system using Node.js APIs and SQL Server optimization to automate drug inventory management, achieving 35% decrease in manual processing errors and real-time budget monitoring',
+        'Implemented Node.js inventory tracking with SQL Server, handling 500+ concurrent updates via optimistic locking mechanisms',
+        'Configured AWS EC2 auto-scaling with CloudWatch metrics for CPU utilization above 70%, automatically provisioning instances during match day traffic spikes of 15,000 concurrent users',
+        'Established Docker containerization with multi-stage builds and Alpine Linux base images for deploying microservices architecture including player management, laboratory inventory, and reporting services, reducing deployment artifacts from 1.2GB to 340MB and decreasing container startup time by 60%',
         'Consolidated microservices architecture with AWS cloud services to unify sports management and healthcare modules, enabling cross-platform data synchronization and cutting infrastructure costs by 45%',
         'Automated CI/CD pipeline processes using Docker containers and Kubernetes orchestration to accelerate feature deployments, shortening release cycles from 2 weeks to 3 days while maintaining 99.5% uptime',
         'Configured Terraform infrastructure provisioning with JavaScript-based monitoring dashboards to track contract management workflows across 15 modules, providing real-time visibility that boosted HR processing efficiency by 40% and cut compliance audit time from 6 hours to 90 minutes',
